@@ -1,16 +1,16 @@
 @font-face {
-    font-family: "cum1";
-    src: url(/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2);
+    font-family: 'cum1';
+    src: url('./Font/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2'),  format('woff2');
 }
 
 @font-face {
-    font-family: "cum2";
-    src: url(/font-0c17f632-5d21-476e-ae88-72494612b8f0.ttf);
+    font-family: 'cum2';
+    src: url('./Font/font-0c17f632-5d21-476e-ae88-72494612b8f0.ttf'), format('ttf');
 }
 
 @font-face {
-    font-family: "cum3";
-    src: url(/font-445153ca-d1f5-4c24-9d71-080146a71e01.ttf);
+    font-family: 'cum3';
+    src: url('./Font/font-445153ca-d1f5-4c24-9d71-080146a71e01.ttf'), format('ttf');
 }
 
 
