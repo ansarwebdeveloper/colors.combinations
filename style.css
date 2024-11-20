@@ -1,0 +1,887 @@
+@font-face {
+    font-family: "cum1";
+    src: url(/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2);
+}
+
+@font-face {
+    font-family: "cum2";
+    src: url(/font-0c17f632-5d21-476e-ae88-72494612b8f0.ttf);
+}
+
+@font-face {
+    font-family: "cum3";
+    src: url(/font-445153ca-d1f5-4c24-9d71-080146a71e01.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+#main {
+    width: 100%;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#home>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home #circle {
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home #circle img {
+    width: 100%;
+}
+
+#home #circle #top {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-180deg);
+    /* background-color: rgb(255, 255, 255); */
+}
+
+#home #circle #btm {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgb(255, 0, 0); */
+}
+
+#home #circle #top img {
+    position: absolute;
+
+}
+
+#home #circle #btm img {
+    position: absolute;
+}
+
+#home #circle #top img:nth-child(1) {
+    transform: scale(2.2);
+
+}
+
+#home #circle #top img:nth-child(2) {
+    transform: scale(1.5);
+
+}
+
+#home #circle #top img:nth-child(3) {
+    transform: scale(1.1);
+
+}
+
+#home #circle #btm img:nth-child(1) {
+    transform: scale(2.2);
+
+}
+
+#home #circle #btm img:nth-child(2) {
+    transform: scale(1.5);
+
+}
+
+#home #circle #btm img:nth-child(3) {
+    transform: scale(1.1);
+
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+#smcircle {
+    width: 35vw;
+    height: 35vw;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+#nav {
+    width: 100%;
+    padding: 40px 50px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#nav h2 {
+    text-transform: uppercase;
+    width: 10%;
+    font-family: "cum2";
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+#cplate {
+    display: flex;
+    align-items: center;
+}
+
+#cplate .cbox {
+    width: 14px;
+    height: 14px;
+    background-color: rgb(235, 235, 235);
+}
+
+#plate h2 {
+    font-family: "cum3";
+    font-size: 14px;
+    width: 110px;
+    word-spacing: 3px;
+    margin-top: 8px;
+}
+
+#cplate .cbox:nth-child(2) {
+    background-color: rgb(214, 214, 214);
+}
+
+#cplate .cbox:nth-child(3) {
+    background-color: rgb(173, 173, 173);
+}
+
+#cplate .cbox:nth-child(4) {
+    background-color: rgb(129, 129, 129);
+}
+
+#cplate .cbox:nth-child(5) {
+    background-color: rgb(88, 88, 88);
+}
+
+#cplate .cbox:nth-child(6) {
+    background-color: rgb(49, 49, 49);
+}
+
+#nav2 {
+    width: 100%;
+    padding: 40px 60px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+
+}
+
+#nav2 #nave2l {
+    display: flex;
+    padding-left: 10px;
+}
+
+#nav2 #nave2l p:nth-child(1) {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-size: 10px;
+    padding: 1px 2px 1px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3.3%;
+    bottom: 51%;
+}
+
+#nav2 #nave2l p:nth-child(2) {
+    font-family: "cum3";
+    opacity: 0.8;
+}
+
+#nave2r {
+    display: flex;
+    gap: 6px;
+    font-family: "cum3";
+    padding-right: 18px;
+}
+
+#nave2r i {
+    transform: rotate(-180deg);
+}
+
+#centerimg {
+    width: 30vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#centerimg h5 {
+    font-family: "cum1";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+#cimage {
+    position: relative;
+    width: 30vw;
+    height: 260px;
+    overflow: hidden;
+
+}
+
+#centerimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#overlay>h1 {
+    font-family: "cum2";
+    text-transform: uppercase;
+    color: #313131;
+    font-size: 11vw;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    bottom: -2.2%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
+#overlay>h2 {
+    font-family: "cum2";
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 11vw;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    bottom: -22.2%;
+    transform-origin: 0% 50%;
+    transform: translate(-50%, 0) rotate(30deg);
+    z-index: 1;
+}
+
+#overlay #gola {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d5a7b4;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#info {
+    width: 30vw;
+    height: 30vw;
+    background-color: #D5A7B4;
+    color: #ffffff;
+    position: absolute;
+    left: 0%;
+    top: 120%;
+    padding: 100px 20px 0px 50px;
+    position: relative;
+}
+
+
+#overlay #info h2 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "cum2";
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#overlay #info>p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "cum2";
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+#infobtm {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    font-family: "cum3";
+    font-weight: 200;
+    letter-spacing: 1px;
+
+}
+
+#infobtm sup {
+    font-family: "cum2";
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 2px;
+}
+
+#second {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+#second #snav {
+    width: 100%;
+    padding: 40px 50px;
+    position: absolute;
+    z-index: 34;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#snav h2 {
+    text-transform: uppercase;
+    width: 10%;
+    font-family: "cum2";
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+#scplate {
+    display: flex;
+    align-items: center;
+}
+
+#scplate .cbox {
+    width: 14px;
+    height: 14px;
+    background-color: rgb(235, 235, 235);
+}
+
+#splate h2 {
+    font-family: "cum3";
+    font-size: 14px;
+    width: 110px;
+    word-spacing: 3px;
+    margin-top: 8px;
+}
+
+#scplate .cbox:nth-child(2) {
+    background-color: rgb(214, 214, 214);
+}
+
+#scplate .cbox:nth-child(3) {
+    background-color: rgb(173, 173, 173);
+}
+
+#scplate .cbox:nth-child(4) {
+    background-color: rgb(129, 129, 129);
+}
+
+#scplate .cbox:nth-child(5) {
+    background-color: rgb(88, 88, 88);
+}
+
+#scplate .cbox:nth-child(6) {
+    background-color: rgb(49, 49, 49);
+}
+
+#snav2 {
+    width: 100%;
+    padding: 40px 60px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;   
+
+}
+
+#snav2 #snave2l {
+    display: flex;
+    padding-left: 10px;
+}
+
+#snav2 #snave2l p:nth-child(1) {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-size: 10px;
+    padding: 1px 2px 1px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 3.3%;
+    bottom: 51%;
+}
+
+#snav2 #snave2l p:nth-child(2) {
+    font-family: "cum3";
+    opacity: 0.8;
+}
+
+#snave2r {
+    display: flex;
+    gap: 6px;
+    font-family: "cum3";
+    padding-right: 18px;
+}
+
+#snave2r i {
+    transform: rotate(-180deg);
+}
+
+#stop{
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+    position: relative;
+}
+
+#stop .circle{
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 150%;
+    transform: translate(-50%,-50%);
+    
+}
+
+#stop .pu{
+    left: 45%;
+    background: linear-gradient(to right,#D5A7B4, #D5A7B4);
+    z-index: 1;
+}
+#stop .pi{
+    left: 55%;
+    background-color: #B4AAD5;
+}
+
+#stop h1{
+    position: absolute;
+    left: 100%;
+    bottom: -6%;
+    font-family: "cum2";
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 26vw;
+    line-height: 1;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+}
+
+#sbtm{
+    width: 100%;
+    height: 35%;
+    position: relative;   
+}  
+
+#sbtm p{
+position: absolute;
+left: 50%;
+top: 55%;
+transform: translate(-50%,-50%);
+font-family: "cum2";
+text-align: center;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 2vw;
+line-height: 1.2;
+}
+
+#sbtm p:nth-child(1){
+    opacity: 0;
+}
+
+#sbar{
+    width: 100%;
+    height: 100%;    
+    position: absolute;
+    bottom: 0;
+    /* background-color: red; */
+    
+}
+
+/* #robar1{
+    display: flex;
+} */
+
+#rowbar1 .bar{
+    display: inline-block;
+    width: 20%;   
+    background-color: #DFB1BE;
+    position: absolute;
+    bottom:0%;
+    
+}
+
+#rowbar1 .bar:nth-child(2){
+    left: 20%;
+    background-color: #E9BBC8;
+}
+
+#rowbar1 .bar:nth-child(3){
+    left: 40%;
+    background-color: #F3C5D2;
+}
+
+#rowbar1 .bar:nth-child(4){
+    left: 60%;
+    background-color: #FDCFDC;
+}
+
+#rowbar1 .bar:nth-child(5){
+    left: 80%;
+    background-color: #FFE3F0;
+}
+
+
+#rowbar2 .bar2{
+    display: inline-block;
+    width: 20%;   
+    background-color: #DFB1BE;
+    position: absolute;
+    bottom:0%;
+    
+}
+
+#rowbar2 .bar2:nth-child(2){
+    left: 20%;
+    background-color: #E9BBC8;
+}
+
+#rowbar2 .bar2:nth-child(3){
+    left: 40%;
+    background-color: #F3C5D2;
+}
+
+#rowbar2 .bar2:nth-child(4){
+    left: 60%;
+    background-color: #FDCFDC;
+}
+
+#rowbar2 .bar2:nth-child(5){
+    left: 80%;
+    background-color: #FFE3F0;
+}
+#rowbar2 .bar2:nth-child(6){
+    left: 100%;
+    background-color: #FFEDFA;
+
+}
+
+#rowbar3 .bar2{
+    display: inline-block;
+    width: 20%;   
+    background-color: #DFB1BE;
+    position: absolute;
+    bottom:0%;
+    
+}
+
+#rowbar3 .bar2:nth-child(2){
+    left: 20%;
+    background-color: #E9BBC8;
+}
+
+#rowbar3 .bar2:nth-child(3){
+    left: 40%;
+    background-color: #F3C5D2;
+}
+
+#rowbar3 .bar2:nth-child(4){
+    left: 60%;
+    background-color: #FDCFDC;
+}
+
+#rowbar3 .bar2:nth-child(5){
+    left: 80%;
+    background-color: #FFE3F0;
+}
+#rowbar3 .bar2:nth-child(6){
+    left: 100%;
+    background-color: #FFEDFA;
+
+}
+
+
+
+
+
+
+
+@media (max-width:500px) {
+
+    #nav{
+        padding: 20px 20px;
+    }
+
+    #nav>h2{
+        font-size: 14px;
+    }
+
+    #plate h2{
+        font-size: 14px;
+        word-spacing: 2px;
+    }
+
+    #nav2 #nave2l p:nth-child(1){
+        left: 9%;   
+    }
+
+    #nav2{
+        padding: 40px 50px;
+        bottom: 11%;
+    }
+
+    #nave2r {
+        padding-right: 1px;
+    } 
+
+    #smcircle{
+        width: 80vw;
+        height: 80vw;
+    }
+
+    #centerimg{
+        width: 80vw;
+    }
+
+    #centerimg h5{
+        font-size: 4vw;
+    }
+
+    #cimage{
+        width: 80vw;
+        height: 50vw;
+    }
+
+    #home #circle {
+        width: 110vw;
+        height: 110vw;
+    }
+
+    #overlay>h1 {
+        font-size: 13vw;
+        font-weight: 800;
+        bottom: 3.2%;
+    }
+
+    #overlay>h2 {
+        font-size: 13vw;
+        font-weight: 800; 
+        bottom: -22.2%;
+    }
+
+    #snav{
+        padding: 20px 20px;
+    }
+
+    #snav2{
+        padding: 0px 30px;
+    }
+
+    #snav>h2{
+        font-size: 14px;
+    }
+
+    #splate h2{
+        font-size: 14px;
+        word-spacing: 2px;
+    }
+
+    #snav2 #snave2l p:nth-child(1){
+        left: 4%;   
+    }
+
+    #second #snav {
+        padding: 40px 30px;
+    }
+
+    #snave2r {
+        padding-right: 1px;
+    } 
+
+    #stop .circle{
+        width: 33vw;
+        height: 33vw;
+        top: 140%;                
+    }
+    
+    #stop .pu{
+        left: 35%;
+    }
+    #stop .pi{
+        left: 60%;       
+    }
+    
+    #stop h1{        
+        left: 100%;
+        bottom: -3%;   
+        font-weight: 600;
+        font-size: 26vw;
+    }
+
+    #sbtm p{
+        top: 30%;
+        font-weight: 600;
+        font-size: 3.5vw;
+        line-height: 1.2;
+        width: 90%;
+        }
+
+        #info {
+            width: 65vw;
+            height:80vw;
+            top: 120%;
+            padding: 50px 20px 0px 30px;
+        }
+        
+        
+        #overlay #info h2 {
+            font-size: 14px;
+        }
+        
+        #overlay #info>p {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        #infobtm {
+            position: absolute;
+            bottom: 15%;
+            font-size: 8px;
+            font-weight: 400;        
+        }
+        
+        #infobtm sup {    
+            font-size: 10px;
+        }
+
+        
+        
+
+
+}
+
+@media (min-width: 500px) and (max-width: 1000px){
+    #home #circle {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    #smcircle{
+        width: 80vw;
+        height: 80vw;
+    }
+
+    #cimage{
+        width: 60vw;
+        height: 35vw;
+    }
+
+    #centerimg {
+        left: 35%;
+    }
+
+    #overlay>h1 {
+        font-size: 10vw;
+        font-weight: 800;
+        bottom: 3.2%;
+    }
+    
+    #overlay>h2 {
+        font-size: 10vw;
+    }
+
+    #info {
+        width: 55vw;
+        height:50vw;
+        top: 120%;
+        padding: 50px 20px 0px 30px;
+    }
+    
+    
+    #overlay #info h2 {
+        font-size: 18px;
+    }
+    
+    #overlay #info>p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    
+    #infobtm {
+        position: absolute;
+        bottom: 15%;
+        font-size: 12px;
+        font-weight: 400;        
+    }
+    
+    #infobtm sup {    
+        font-size: 10px;
+    }
+
+
+
+
+}
